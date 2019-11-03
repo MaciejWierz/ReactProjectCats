@@ -1,0 +1,48 @@
+.bigcat-div{
+    position: fixed;
+    position: -webkit-sticky;
+    left:8vw;
+    top: 8vh;
+    height: 84vh;
+    width: 84vw;
+    background-color: whitesmoke;
+    z-index: 10;
+    border: 1px solid #e6e6e6;
+
+    box-shadow: 5 5px 5px rgba(0, 0, 0, 0.15),
+                    0 10px 1 -5px #eee,
+                    0 10px 1px -4px rgba(0,0,0,0.15),
+                    0 20px 0 -10px #eee,
+                    0 20px 1px -9px rgba(0,0,0,0.15);
+
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15),
+    0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0,0,0,0.15),
+    0 20px 0 -10px #eee,
+    0 20px 1px -9px rgba(0,0,0,0.15);
+}
+
+.cat-div{
+    opacity: 1;
+    position: absolute;
+    left:4%;
+    top: 4%;
+    height: 95%;
+    width: 76%;
+    z-index: 10;
+}
+
+.stats-div{
+    display: block;
+    opacity: 0.8;
+    top:4%;
+    height: 95%;
+    width: 17%;
+    padding-right: auto;
+    left:82%;
+    position: absolute;
+    font-size: 18px;
+    color: #46494f;
+    line-height: 1.54em;
+
+}

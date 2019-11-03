@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+body{
+    width: 100vw;
+}
+
+.header{
+    background-image: url(/static/media/kot.3fbf2213.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: right;;
+    background-size: 60% 100%;
+}
+
+
+
+.cats-label{
+    font-size: 25ch;
+    position: relative;
+    left:20%;
+    top:15%;
+    font-family: 'Indie Flower', cursive;
+
+}

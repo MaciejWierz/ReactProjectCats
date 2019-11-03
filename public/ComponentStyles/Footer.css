@@ -1,0 +1,11 @@
+.footer-main-div{
+    background-color: whitesmoke;
+    height: 15vh;
+
+}
+.footer-label{
+    position: relative;
+    top:75%;
+    left:85%;
+    opacity: 0.8;
+}
