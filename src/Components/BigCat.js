@@ -31,7 +31,7 @@ class BigCat extends React.Component{
             <div className="bigcat-div">
                 <div className="cat-div" style = {style_1}></div>
                 <div className="stats-div"> 
-                    <p>Race: {data.name}</p>
+                    <p><h4>Race: {data.name}</h4></p>
                     <p>Weight: {data.weight.metric} kg</p>
                     <p>Life span: {data.life_span} years</p>
                     <p>Child friendly: {data.child_friendly>3 ? "yes" : "no"}</p>
