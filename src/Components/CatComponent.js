@@ -43,7 +43,12 @@ render(){
     }
     
     return(
-    !this.state.loading ? <div>Lołding</div> :
+    !this.state.loading ? 
+    <div className= "img-container">
+        <img src="/static/media/loading.7c1ec8a2.gif" alt = "loading" className="app-loading-img"/> 
+    </div>
+    
+    :
     
     
 

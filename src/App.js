@@ -107,7 +107,12 @@ handleAppOnClick(event){
     }
 
             return (
-            !this.state.loaded ? <div>Lołding</div> :
+            !this.state.loaded ? 
+              <div className="app-loading">
+                <img src="/static/media/loading.7c1ec8a2.gif" alt = "loading" className="app-loading-img"/>
+              </div> 
+              
+              :
 
             <div>
                 <BigCat url = {this.state.selectedData.backgroundImage}
@@ -122,7 +127,7 @@ handleAppOnClick(event){
                   <Header/>
                   {rowsList}
                   <MyFoot/>
-                  
+                
         
                 </div> 
             </div>
